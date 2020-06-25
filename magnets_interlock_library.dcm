@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ErrSig
+D Power symbol creates a global label with name "ErrSig"
+K power-flag
+$ENDCMP
+#
 #End Doc Library

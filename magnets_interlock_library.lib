@@ -1,6 +1,48 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# BNC_Input_female
+#
+DEF BNC_Input_female J 0 10 Y N 1 L N
+F0 "J" 350 250 60 H V C CNN
+F1 "BNC_Input_female" 400 0 60 H V C CNN
+F2 "conn2_1-1337543-0_TEC" 400 -60 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ conn2_1-1337543-0_TEC
+$ENDFPLIST
+DRAW
+P 2 1 1 5 200 -400 500 -400 N
+P 2 1 1 5 200 100 200 -400 N
+P 2 1 1 5 400 -100 200 -100 N
+P 2 1 1 5 400 -100 350 -133 N
+P 2 1 1 5 400 -100 350 -67 N
+P 2 1 1 5 400 0 200 0 N
+P 2 1 1 5 400 0 350 -33 N
+P 2 1 1 5 400 0 350 33 N
+P 2 1 1 5 500 -400 500 100 N
+P 2 1 1 5 500 100 200 100 N
+X Center_Pin 1 0 0 200 R 59 59 1 1 U
+X BNC_Shield 2 0 -100 200 R 59 59 1 1 U
+X shield 3 0 -200 200 R 59 59 1 1 U
+X shield 4 0 -300 200 R 59 59 1 1 U
+ENDDRAW
+ENDDEF
+#
+# ErrSig
+#
+DEF ErrSig #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "ErrSig" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 0 0 100 N
+P 4 0 1 0 30 50 -30 50 0 100 30 50 F
+X ErrSig 1 0 0 0 U 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
 # Magnets_enable
 #
 DEF Magnets_enable U 0 40 Y Y 1 F N
