@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PEM2-S24-S24-S
+#
+DEF PEM2-S24-S24-S U 0 40 Y Y 1 L N
+F0 "U" -402 302 50 H V L BNN
+F1 "PEM2-S24-S24-S" -402 -402 50 H V L BNN
+F2 "CONV_PEM2-S24-S24-S" 0 0 50 H I L BNN
+F3 "Warning" 0 0 50 H I L BNN
+F4 "6.69 USD" 0 0 50 H I L BNN
+F5 "PEM2-S12-S12-S" 0 0 50 H I L BNN
+F6 "SIP-7 CUI" 0 0 50 H I L BNN
+F7 "PEM2 Series 2 W12 VDC 167 mA Single Output DC-DC Isolated Converter" 0 0 50 H I L BNN
+F8 "CUI" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 -300 -400 300 N
+P 2 0 0 10 -400 300 400 300 N
+P 2 0 0 10 400 300 400 -300 N
+P 2 0 0 10 400 -300 -400 -300 N
+X VIN 1 -600 100 200 R 40 40 0 0 I 
+X GND 2 -600 -100 200 R 40 40 0 0 W 
+X 0V 5 600 -100 200 L 40 40 0 0 W 
+X +VO 7 600 100 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library

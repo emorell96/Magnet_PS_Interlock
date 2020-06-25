@@ -220,17 +220,6 @@ F 3 "" H 1050 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
-U 1 1 5EF6ADD6
-P 1050 3200
-F 0 "#PWR?" H 1050 3050 50  0001 C CNN
-F 1 "+12V" H 1065 3373 50  0000 C CNN
-F 2 "" H 1050 3200 50  0001 C CNN
-F 3 "" H 1050 3200 50  0001 C CNN
-	1    1050 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5EF6B6AB
 P 750 3350
@@ -251,17 +240,6 @@ Wire Wire Line
 Wire Wire Line
 	1050 3350 1050 3400
 Connection ~ 1050 3350
-$Comp
-L power:-12V #PWR?
-U 1 1 5EF6E494
-P 1050 4100
-F 0 "#PWR?" H 1050 4200 50  0001 C CNN
-F 1 "-12V" H 1065 4273 50  0000 C CNN
-F 2 "" H 1050 4100 50  0001 C CNN
-F 3 "" H 1050 4100 50  0001 C CNN
-	1    1050 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EF6EDE4
@@ -293,5 +271,53 @@ F 2 "conn2_1-1337543-0_TEC" H 1400 4990 60  0001 C CNN
 F 3 "" H 1000 5050 60  0000 C CNN
 	1    1000 5050
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5150 1000 5250
+Connection ~ 1000 5250
+Wire Wire Line
+	1000 5250 1000 5350
+$Comp
+L power:GND #PWR?
+U 1 1 5EF72CF4
+P 700 5250
+F 0 "#PWR?" H 700 5000 50  0001 C CNN
+F 1 "GND" H 705 5077 50  0000 C CNN
+F 2 "" H 700 5250 50  0001 C CNN
+F 3 "" H 700 5250 50  0001 C CNN
+	1    700  5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  5250 1000 5250
+Wire Wire Line
+	1050 2900 1050 3200
+Wire Wire Line
+	1050 3850 1050 4100
+Text GLabel 1000 4800 0    50   Input ~ 0
+ErrSig
+Wire Wire Line
+	1000 4800 1000 5050
+$Comp
+L power:+12V #PWR?
+U 1 1 5EF7CEEC
+P 1050 3850
+F 0 "#PWR?" H 1050 3700 50  0001 C CNN
+F 1 "+12V" V 1065 3978 50  0000 L CNN
+F 2 "" H 1050 3850 50  0001 C CNN
+F 3 "" H 1050 3850 50  0001 C CNN
+	1    1050 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 5EF7DBC2
+P 1050 2900
+F 0 "#PWR?" H 1050 3000 50  0001 C CNN
+F 1 "-12V" V 1065 3028 50  0000 L CNN
+F 2 "" H 1050 2900 50  0001 C CNN
+F 3 "" H 1050 2900 50  0001 C CNN
+	1    1050 2900
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
