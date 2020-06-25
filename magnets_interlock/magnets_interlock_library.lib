@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Magnets_enable
+#
+DEF Magnets_enable U 0 40 Y Y 1 F N
+F0 "U" 150 -100 50 H V C CNN
+F1 "Magnets_enable" 150 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 200 600 -200 0 1 0 N
+X Enable+ ~ -400 0 100 R 50 50 1 1 I
+X Enable- ~ 700 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Safety_Relay_DPDT
+#
+DEF Safety_Relay_DPDT U 0 40 Y Y 1 F N
+F0 "U" 50 -850 50 H V C CNN
+F1 "Safety_Relay_DPDT" 100 -700 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -650 -350 850 -1200 0 1 0 f
+X Coil+ ~ -450 -250 100 D 50 50 1 1 W
+X Coil- ~ -450 -1300 100 U 50 50 1 1 W
+X COM1 ~ 0 -1300 100 U 50 50 1 1 I
+X COM2 ~ 600 -1300 100 U 50 50 1 1 I
+X NC1 ~ -100 -250 100 D 50 50 1 1 O
+X NC2 ~ 500 -250 100 D 50 50 1 1 O
+X NO1 ~ 100 -250 100 D 50 50 1 1 O
+X NO2 ~ 700 -250 100 D 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

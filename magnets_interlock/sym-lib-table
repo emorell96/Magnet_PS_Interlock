@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name magnets_interlock_library)(type Legacy)(uri ${KIPRJMOD}/magnets_interlock_library.lib)(options "")(descr ""))
+)
