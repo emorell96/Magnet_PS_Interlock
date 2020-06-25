@@ -3,4 +3,6 @@
   (lib (name PEM2-S24-S24-S)(type Legacy)(uri ${KIPRJMOD}/PEM2-S24-S24-S.lib)(options "")(descr ""))
   (lib (name 2020-06-25_21-51-44)(type Legacy)(uri ${KIPRJMOD}/Digi_Iso/KiCAD/2020-06-25_21-51-44/2020-06-25_21-51-44.lib)(options "")(descr ""))
   (lib (name ROE-2405S)(type Legacy)(uri ${KIPRJMOD}/24to5Iso/ROE-2405S.lib)(options "")(descr ""))
+  (lib (name 2020-06-25_22-55-44)(type Legacy)(uri ${KIPRJMOD}/UA78M05/KiCAD/2020-06-25_22-55-44/2020-06-25_22-55-44.lib)(options "")(descr ""))
+  (lib (name 2020-06-25_23-20-23)(type Legacy)(uri ${KIPRJMOD}/LM2904DR/KiCAD/2020-06-25_23-20-23/2020-06-25_23-20-23.lib)(options "")(descr ""))
 )
