@@ -5,4 +5,7 @@
   (lib (name ROE-2405S)(type Legacy)(uri ${KIPRJMOD}/24to5Iso/ROE-2405S.lib)(options "")(descr ""))
   (lib (name 2020-06-25_22-55-44)(type Legacy)(uri ${KIPRJMOD}/UA78M05/KiCAD/2020-06-25_22-55-44/2020-06-25_22-55-44.lib)(options "")(descr ""))
   (lib (name 2020-06-25_23-20-23)(type Legacy)(uri ${KIPRJMOD}/LM2904DR/KiCAD/2020-06-25_23-20-23/2020-06-25_23-20-23.lib)(options "")(descr ""))
+  (lib (name NXE1S0505MC-R7)(type Legacy)(uri ${KIPRJMOD}/NXE1S050/NXE1S0505MC-R7.lib)(options "")(descr ""))
+  (lib (name 2020-06-26_17-54-09)(type Legacy)(uri ${KIPRJMOD}/SR4D4005/KiCAD/2020-06-26_17-54-09/2020-06-26_17-54-09.lib)(options "")(descr ""))
+  (lib (name 2020-06-26_17-59-50)(type Legacy)(uri ${KIPRJMOD}/SI8640DBIS/KiCAD/2020-06-26_17-59-50/2020-06-26_17-59-50.lib)(options "")(descr ""))
 )
