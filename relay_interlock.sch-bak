@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -201,40 +201,25 @@ Wire Wire Line
 $Comp
 L dk_Logic-Gates-and-Inverters:SN74LVC1G08DCKR U?
 U 1 1 5EF92FF9
-P 3950 4500
-F 0 "U?" H 4294 4553 60  0000 L CNN
-F 1 "SN74LVC1G08DCKR" H 4294 4447 60  0000 L CNN
-F 2 "digikey-footprints:SC-70-5" H 4150 4700 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08" H 4150 4800 60  0001 L CNN
-F 4 "296-11602-1-ND" H 4150 4900 60  0001 L CNN "Digi-Key_PN"
-F 5 "SN74LVC1G08DCKR" H 4150 5000 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 4150 5100 60  0001 L CNN "Category"
-F 7 "Logic - Gates and Inverters" H 4150 5200 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08" H 4150 5300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/SN74LVC1G08DCKR/296-11602-1-ND/385741" H 4150 5400 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC GATE AND 1CH 2-INP SC70-5" H 4150 5500 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 4150 5600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4150 5700 60  0001 L CNN "Status"
-	1    3950 4500
+P 5500 4500
+F 0 "U?" H 5844 4553 60  0000 L CNN
+F 1 "SN74LVC1G08DCKR" H 5844 4447 60  0000 L CNN
+F 2 "digikey-footprints:SC-70-5" H 5700 4700 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08" H 5700 4800 60  0001 L CNN
+F 4 "296-11602-1-ND" H 5700 4900 60  0001 L CNN "Digi-Key_PN"
+F 5 "SN74LVC1G08DCKR" H 5700 5000 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 5700 5100 60  0001 L CNN "Category"
+F 7 "Logic - Gates and Inverters" H 5700 5200 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08" H 5700 5300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/SN74LVC1G08DCKR/296-11602-1-ND/385741" H 5700 5400 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC GATE AND 1CH 2-INP SC70-5" H 5700 5500 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 5700 5600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5700 5700 60  0001 L CNN "Status"
+	1    5500 4500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6300 5400 2    50   Input ~ 0
-+5VOut1
-Wire Wire Line
-	6300 5400 5950 5400
 NoConn ~ 5800 2850
 NoConn ~ 5800 3000
-$Comp
-L 2020-06-28_23-05-53:BSS84-7-F U?
-U 1 1 5EF95272
-P 4150 5300
-F 0 "U?" H 5050 5687 60  0000 C CNN
-F 1 "BSS84-7-F" H 5050 5581 60  0000 C CNN
-F 2 "SOT-23_DIO" H 5050 5540 60  0001 C CNN
-F 3 "" H 4150 5300 60  0000 C CNN
-	1    4150 5300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 4400 3300 3200
 Connection ~ 3300 3200
@@ -269,25 +254,23 @@ F 3 "" H 3050 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3050 4300 3050 4050
-Text GLabel 3950 4050 1    50   Input ~ 0
+Text GLabel 5500 4050 1    50   Input ~ 0
 +5VOut1
 Wire Wire Line
-	3950 4050 3950 4200
+	5500 4050 5500 4200
 $Comp
 L power:GND #PWR?
 U 1 1 5EFA6D3C
-P 3950 5000
-F 0 "#PWR?" H 3950 4750 50  0001 C CNN
-F 1 "GND" H 3955 4827 50  0000 C CNN
-F 2 "" H 3950 5000 50  0001 C CNN
-F 3 "" H 3950 5000 50  0001 C CNN
-	1    3950 5000
+P 5500 5000
+F 0 "#PWR?" H 5500 4750 50  0001 C CNN
+F 1 "GND" H 5505 4827 50  0000 C CNN
+F 2 "" H 5500 5000 50  0001 C CNN
+F 3 "" H 5500 5000 50  0001 C CNN
+	1    5500 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 5000 3950 4800
-Wire Wire Line
-	3300 4400 3650 4400
+	5500 5000 5500 4800
 Text HLabel 2800 4800 0    50   Input ~ 0
 ErrSig1
 Wire Wire Line
@@ -295,5 +278,123 @@ Wire Wire Line
 Wire Wire Line
 	3400 4800 3400 4600
 Wire Wire Line
-	3400 4600 3650 4600
+	7150 4450 5850 4450
+Wire Wire Line
+	5850 4450 5850 4500
+Wire Wire Line
+	5850 4500 5800 4500
+$Comp
+L 2020-06-28_23-59-59:SN74LVC1G14DCKR U?
+U 1 1 5EFB2E9F
+P 3200 5700
+F 0 "U?" H 4300 6087 60  0000 C CNN
+F 1 "SN74LVC1G14DCKR" H 4300 5981 60  0000 C CNN
+F 2 "DCK5" H 4300 5940 60  0001 C CNN
+F 3 "" H 3200 5700 60  0000 C CNN
+	1    3200 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 5700 2    50   Input ~ 0
++5VOut1
+Wire Wire Line
+	5700 5700 5400 5700
+$Comp
+L power:GND #PWR?
+U 1 1 5EFB4DC8
+P 5700 5900
+F 0 "#PWR?" H 5700 5650 50  0001 C CNN
+F 1 "GND" H 5705 5727 50  0000 C CNN
+F 2 "" H 5700 5900 50  0001 C CNN
+F 3 "" H 5700 5900 50  0001 C CNN
+	1    5700 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5900 5400 5900
+NoConn ~ 3200 5700
+Wire Wire Line
+	3800 4600 3800 5100
+Wire Wire Line
+	3800 5100 3000 5100
+Wire Wire Line
+	3000 5100 3000 5800
+Wire Wire Line
+	3000 5800 3200 5800
+Wire Wire Line
+	3400 4600 3800 4600
+Wire Wire Line
+	4700 5300 4700 4600
+Wire Wire Line
+	4700 4600 5200 4600
+Wire Wire Line
+	3300 4400 5200 4400
+Wire Wire Line
+	5400 5800 5500 5800
+Wire Wire Line
+	5500 5800 5500 5300
+Wire Wire Line
+	4700 5300 5500 5300
+$Comp
+L BSS138W:BSS138W Q?
+U 1 1 5EFB94AA
+P 7350 4350
+F 0 "Q?" V 7493 4350 50  0000 C CNN
+F 1 "BSS138W" V 7584 4350 50  0000 C CNN
+F 2 "SOT323-R" H 7350 4350 50  0001 L BNN
+F 3 "" H 7350 4350 50  0001 C CNN
+	1    7350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EFBA4E9
+P 7350 4750
+F 0 "#PWR?" H 7350 4500 50  0001 C CNN
+F 1 "GND" H 7355 4577 50  0000 C CNN
+F 2 "" H 7350 4750 50  0001 C CNN
+F 3 "" H 7350 4750 50  0001 C CNN
+	1    7350 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4750 7350 4550
+$Comp
+L dk_LED-Indication-Discrete:LTST-C150KRKT D?
+U 1 1 5EFBB268
+P 7350 3900
+F 0 "D?" H 7300 3653 60  0000 C CNN
+F 1 "LTST-C150KRKT" H 7300 3759 60  0000 C CNN
+F 2 "digikey-footprints:1206" H 7550 4100 60  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-99-0149/LTST-C150KRKT.pdf" H 7550 4200 60  0001 L CNN
+F 4 "160-1405-1-ND" H 7550 4300 60  0001 L CNN "Digi-Key_PN"
+F 5 "LTST-C150KRKT" H 7550 4400 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 7550 4500 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 7550 4600 60  0001 L CNN "Family"
+F 8 "http://optoelectronics.liteon.com/upload/download/DS-22-99-0149/LTST-C150KRKT.pdf" H 7550 4700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/lite-on-inc/LTST-C150KRKT/160-1405-1-ND/386760" H 7550 4800 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED RED CLEAR 1206 SMD" H 7550 4900 60  0001 L CNN "Description"
+F 11 "Lite-On Inc." H 7550 5000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7550 5100 60  0001 L CNN "Status"
+	1    7350 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EFBC18E
+P 7350 3350
+F 0 "R?" H 7420 3396 50  0000 L CNN
+F 1 "500" H 7420 3305 50  0000 L CNN
+F 2 "" V 7280 3350 50  0001 C CNN
+F 3 "~" H 7350 3350 50  0001 C CNN
+	1    7350 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 2850 1    50   Input ~ 0
++5VOut1
+Wire Wire Line
+	7350 2850 7350 3200
+Wire Wire Line
+	7350 4000 7350 4150
+Wire Wire Line
+	7350 3500 7350 3700
 $EndSCHEMATC
