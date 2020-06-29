@@ -96,17 +96,17 @@ PWR_GND_IN
 Text GLabel 1050 4200 0    50   Input ~ 0
 PWR_GND_IN
 Wire Wire Line
-	950  2100 1200 2100
+	950  2100 1050 2100
 Wire Wire Line
-	1050 2300 1200 2300
+	1050 2300 1150 2300
 Wire Wire Line
-	950  3050 1200 3050
+	950  3050 1050 3050
 Wire Wire Line
-	1050 3250 1200 3250
+	1050 3250 1150 3250
 Wire Wire Line
-	950  4000 1200 4000
+	950  4000 1050 4000
 Wire Wire Line
-	1050 4200 1200 4200
+	1050 4200 1150 4200
 $Comp
 L magnets_interlock_library:BNC_Input_female ERR_In101
 U 1 1 5EF9EE1E
@@ -154,8 +154,6 @@ Connection ~ 4000 1800
 Wire Wire Line
 	4000 1800 4050 1800
 Wire Wire Line
-	2400 2300 3800 2300
-Wire Wire Line
 	3800 2300 3800 1800
 Wire Wire Line
 	3800 1800 3900 1800
@@ -167,7 +165,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 900  3550 1100
 Wire Wire Line
-	3550 1100 4050 1100
+	3550 1100 3950 1100
 $Comp
 L CL-SB-12B-01T:CL-SB-12B-01T S101
 U 1 1 5EFA58AE
@@ -184,9 +182,7 @@ Text GLabel 2650 3050 2    50   Input ~ 0
 Text GLabel 2650 4000 2    50   Input ~ 0
 +5VOut2
 Wire Wire Line
-	2650 4000 2400 4000
-Wire Wire Line
-	2650 3050 2400 3050
+	2650 4000 2500 4000
 $Comp
 L power:GND #PWR0101
 U 1 1 5EFAC57B
@@ -212,16 +208,7 @@ F 3 "" H 2650 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 4200 2400 4200
-Wire Wire Line
-	6450 1500 6450 1600
-Wire Wire Line
-	6450 1600 6550 1600
-Wire Wire Line
-	6550 1600 6550 1800
-Wire Wire Line
-	6550 1800 6450 1800
-Connection ~ 6450 1600
+	2650 4200 2500 4200
 $Comp
 L power:GND #PWR0103
 U 1 1 5EFAE3FF
@@ -233,9 +220,6 @@ F 3 "" H 6700 1800 50  0001 C CNN
 	1    6700 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6700 1800 6550 1800
-Connection ~ 6550 1800
 $Comp
 L power:GND #PWR0104
 U 1 1 5EFAECA0
@@ -248,11 +232,11 @@ F 3 "" H 6650 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6450 1200 6650 1200
+	6450 1200 6550 1200
 Text GLabel 6650 1100 2    50   Input ~ 0
 +5VOut1
 Wire Wire Line
-	6650 1100 6450 1100
+	6650 1100 6500 1100
 $Comp
 L power:GND #PWR0105
 U 1 1 5EFB00AF
@@ -300,10 +284,10 @@ Wire Wire Line
 	7250 1000 7900 1000
 Connection ~ 7900 1000
 $Comp
-L magnets_interlock_library:BNC_Input_female J101
+L magnets_interlock_library:BNC_Input_female MAG_ENABLE_OUT101
 U 1 1 5EFC2490
 P 8100 3450
-F 0 "J101" H 8628 3353 60  0000 L CNN
+F 0 "MAG_ENABLE_OUT101" H 8628 3353 60  0000 L CNN
 F 1 "BNC_Input_female" H 8628 3247 60  0000 L CNN
 F 2 "conn2_1-1337543-0_TEC" H 8500 3390 60  0001 C CNN
 F 3 "" H 8100 3450 60  0000 C CNN
@@ -388,4 +372,272 @@ Wire Wire Line
 	7350 4800 7050 4800
 Text GLabel 7450 1400 3    50   Input ~ 0
 +5VOut2
+$Comp
+L Device:C C107
+U 1 1 5EFF940D
+P 1100 2850
+F 0 "C107" V 1352 2850 50  0000 C CNN
+F 1 "4.7u" V 1261 2850 50  0000 C CNN
+F 2 "" H 1138 2700 50  0001 C CNN
+F 3 "~" H 1100 2850 50  0001 C CNN
+	1    1100 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C101
+U 1 1 5EFF9CF9
+P 1150 1950
+F 0 "C101" V 1402 1950 50  0000 C CNN
+F 1 "4.7u" V 1311 1950 50  0000 C CNN
+F 2 "" H 1188 1800 50  0001 C CNN
+F 3 "~" H 1150 1950 50  0001 C CNN
+	1    1150 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C108
+U 1 1 5EFFA3CD
+P 1150 3850
+F 0 "C108" V 1402 3850 50  0000 C CNN
+F 1 "4.7u" V 1311 3850 50  0000 C CNN
+F 2 "" H 1188 3700 50  0001 C CNN
+F 3 "~" H 1150 3850 50  0001 C CNN
+	1    1150 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 1950 1000 2050
+Wire Wire Line
+	1000 2050 1050 2050
+Wire Wire Line
+	1050 2050 1050 2100
+Connection ~ 1050 2100
+Wire Wire Line
+	1050 2100 1200 2100
+Wire Wire Line
+	1300 1950 1300 2050
+Wire Wire Line
+	1300 2050 1150 2050
+Wire Wire Line
+	1150 2050 1150 2300
+Connection ~ 1150 2300
+Wire Wire Line
+	1150 2300 1200 2300
+Wire Wire Line
+	950  2850 950  2950
+Wire Wire Line
+	950  2950 1050 2950
+Wire Wire Line
+	1050 2950 1050 3050
+Connection ~ 1050 3050
+Wire Wire Line
+	1050 3050 1200 3050
+Wire Wire Line
+	1250 2850 1250 2950
+Wire Wire Line
+	1250 2950 1150 2950
+Wire Wire Line
+	1150 2950 1150 3250
+Connection ~ 1150 3250
+Wire Wire Line
+	1150 3250 1200 3250
+Wire Wire Line
+	1000 3850 1000 3900
+Wire Wire Line
+	1000 3900 1050 3900
+Wire Wire Line
+	1050 3900 1050 4000
+Connection ~ 1050 4000
+Wire Wire Line
+	1050 4000 1200 4000
+Wire Wire Line
+	1300 3850 1300 3950
+Wire Wire Line
+	1300 3950 1150 3950
+Wire Wire Line
+	1150 3950 1150 4200
+Connection ~ 1150 4200
+Wire Wire Line
+	1150 4200 1200 4200
+$Comp
+L Device:C C105
+U 1 1 5F009621
+P 3900 800
+F 0 "C105" V 3648 800 50  0000 C CNN
+F 1 "0.1u" V 3739 800 50  0000 C CNN
+F 2 "" H 3938 650 50  0001 C CNN
+F 3 "~" H 3900 800 50  0001 C CNN
+	1    3900 800 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 800  4050 1050
+Wire Wire Line
+	4050 1050 3950 1050
+Wire Wire Line
+	3950 1050 3950 1100
+Connection ~ 3950 1100
+Wire Wire Line
+	3950 1100 4050 1100
+Wire Wire Line
+	3750 800  3750 1200
+Wire Wire Line
+	3750 1200 3900 1200
+Connection ~ 3900 1200
+$Comp
+L Device:C C106
+U 1 1 5F00F285
+P 6500 750
+F 0 "C106" V 6248 750 50  0000 C CNN
+F 1 "0.1u" V 6339 750 50  0000 C CNN
+F 2 "" H 6538 600 50  0001 C CNN
+F 3 "~" H 6500 750 50  0001 C CNN
+	1    6500 750 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 750  6350 1050
+Wire Wire Line
+	6350 1050 6500 1050
+Wire Wire Line
+	6500 1050 6500 1100
+Connection ~ 6500 1100
+Wire Wire Line
+	6500 1100 6450 1100
+Wire Wire Line
+	6650 1000 6550 1000
+Wire Wire Line
+	6550 1000 6550 1200
+Connection ~ 6550 1200
+Wire Wire Line
+	6550 1200 6650 1200
+Wire Wire Line
+	6650 750  6650 1000
+$Comp
+L Device:C C102
+U 1 1 5F018AC0
+P 2650 2100
+F 0 "C102" V 2902 2100 50  0000 C CNN
+F 1 "2.2u" V 2811 2100 50  0000 C CNN
+F 2 "" H 2688 1950 50  0001 C CNN
+F 3 "~" H 2650 2100 50  0001 C CNN
+	1    2650 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 2100 2400 2100
+Connection ~ 2400 2100
+$Comp
+L Device:C C104
+U 1 1 5F023665
+P 3300 3200
+F 0 "C104" H 3415 3246 50  0000 L CNN
+F 1 "2.2u" H 3415 3155 50  0000 L CNN
+F 2 "" H 3338 3050 50  0001 C CNN
+F 3 "~" H 3300 3200 50  0001 C CNN
+	1    3300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3250 2600 3250
+Connection ~ 2600 3250
+$Comp
+L Device:C C103
+U 1 1 5F02B4AC
+P 3250 4150
+F 0 "C103" H 3365 4196 50  0000 L CNN
+F 1 "2.2u" H 3365 4105 50  0000 L CNN
+F 2 "" H 3288 4000 50  0001 C CNN
+F 3 "~" H 3250 4150 50  0001 C CNN
+	1    3250 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4000 3250 3900
+Wire Wire Line
+	3250 3900 2500 3900
+Wire Wire Line
+	2500 3900 2500 4000
+Connection ~ 2500 4000
+Wire Wire Line
+	2500 4000 2400 4000
+Wire Wire Line
+	3250 4300 3250 4500
+Wire Wire Line
+	3250 4500 2500 4500
+Wire Wire Line
+	2500 4500 2500 4200
+Connection ~ 2500 4200
+Wire Wire Line
+	2500 4200 2400 4200
+Wire Wire Line
+	2400 3050 2550 3050
+Wire Wire Line
+	3300 3050 3300 2800
+Wire Wire Line
+	3300 2800 2550 2800
+Wire Wire Line
+	2550 2800 2550 3050
+Connection ~ 2550 3050
+Wire Wire Line
+	2550 3050 2650 3050
+Wire Wire Line
+	3300 3350 2850 3350
+Wire Wire Line
+	2850 3350 2850 3250
+Wire Wire Line
+	2400 2300 2800 2300
+Wire Wire Line
+	2800 2100 2800 2300
+Connection ~ 2800 2300
+Wire Wire Line
+	2800 2300 3800 2300
+Wire Wire Line
+	6450 1800 6700 1800
+$Comp
+L Device:R R102
+U 1 1 5F055E1C
+P 6700 1500
+F 0 "R102" V 6493 1500 50  0000 C CNN
+F 1 "1k" V 6584 1500 50  0000 C CNN
+F 2 "" V 6630 1500 50  0001 C CNN
+F 3 "~" H 6700 1500 50  0001 C CNN
+	1    6700 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 1500 6450 1500
+$Comp
+L Device:R R103
+U 1 1 5F05AC0C
+P 6700 1600
+F 0 "R103" V 6493 1600 50  0000 C CNN
+F 1 "1k" V 6584 1600 50  0000 C CNN
+F 2 "" V 6630 1600 50  0001 C CNN
+F 3 "~" H 6700 1600 50  0001 C CNN
+	1    6700 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 1600 6450 1600
+Wire Wire Line
+	6850 1500 6850 1550
+Connection ~ 6850 1550
+Wire Wire Line
+	6850 1550 6850 1600
+Wire Wire Line
+	6850 1550 7000 1550
+$Comp
+L power:GND #PWR0122
+U 1 1 5F06CAA7
+P 7000 2000
+F 0 "#PWR0122" H 7000 1750 50  0001 C CNN
+F 1 "GND" H 7005 1827 50  0000 C CNN
+F 2 "" H 7000 2000 50  0001 C CNN
+F 3 "" H 7000 2000 50  0001 C CNN
+	1    7000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1550 7000 2000
 $EndSCHEMATC

@@ -1,7 +1,5 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
-#(c) SnapEDA 2016 (snapeda.com)
-#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
 #
 # CL-SB-12B-01T
 #
@@ -9,28 +7,29 @@ DEF CL-SB-12B-01T S 0 40 Y Y 1 L N
 F0 "S" -201 251 50 H V L BNN
 F1 "CL-SB-12B-01T" -200 -250 50 H V L BNN
 F2 "CL-SB-12B" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C -100 0 25 0 0 6 N
-P 2 0 0 6 -100 25 0 100 N
 C 0 125 25 0 0 6 N
 C 100 0 25 0 0 6 N
+P 2 0 0 6 -250 0 -200 0 N
+P 2 0 0 6 -200 -200 200 -200 N
+P 2 0 0 6 -200 0 -200 -200 N
+P 2 0 0 6 -200 0 -125 0 N
+P 2 0 0 6 -200 250 -200 0 N
+P 2 0 0 6 -100 25 0 100 N
+P 2 0 0 6 0 150 0 250 N
+P 2 0 0 6 0 250 -200 250 N
+P 2 0 0 6 0 250 0 300 N
+P 2 0 0 6 125 0 200 0 N
 P 2 0 0 6 200 -200 200 0 N
 P 2 0 0 6 200 0 200 250 N
 P 2 0 0 6 200 250 0 250 N
-P 2 0 0 6 0 250 -200 250 N
-P 2 0 0 6 -200 250 -200 0 N
-P 2 0 0 6 -200 0 -200 -200 N
-P 2 0 0 6 -200 -200 200 -200 N
-P 2 0 0 6 -250 0 -200 0 N
-P 2 0 0 6 0 250 0 300 N
 P 2 0 0 6 250 0 200 0 N
-P 2 0 0 6 0 150 0 250 N
-P 2 0 0 6 -200 0 -125 0 N
-P 2 0 0 6 125 0 200 0 N
-X 1 1 -350 0 100 R 40 40 0 0 B 
-X 2 2 0 400 100 D 40 40 0 0 B 
-X 3 3 350 0 100 L 40 40 0 0 B 
+X 1 1 -350 0 100 R 40 40 0 0 P
+X 2 2 0 400 100 D 40 40 0 0 P
+X 3 3 350 0 100 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# End Library
+#End Library
