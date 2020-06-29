@@ -1,0 +1,515 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L magnets_interlock_library:BNC_Input_female +24Supply?
+U 1 1 5EF957CB
+P 1850 1800
+AR Path="/5EF957CB" Ref="+24Supply?"  Part="1" 
+AR Path="/5EF82676/5EF957CB" Ref="+24Supply?"  Part="1" 
+F 0 "+24Supply?" H 2092 2087 60  0000 C CNN
+F 1 "BNC_Input_female" H 2092 1981 60  0000 C CNN
+F 2 "conn2_1-1337543-0_TEC" H 2250 1740 60  0001 C CNN
+F 3 "" H 1850 1800 60  0000 C CNN
+	1    1850 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4050 1650 4150
+Connection ~ 1650 4150
+Wire Wire Line
+	1650 4150 1650 4250
+$Comp
+L PEM2-S24-S24-S:PEM2-S24-S24-S U?
+U 1 1 5EF957D9
+P 2950 1900
+AR Path="/5EF957D9" Ref="U?"  Part="1" 
+AR Path="/5EF82676/5EF957D9" Ref="U?"  Part="1" 
+F 0 "U?" H 2950 2367 50  0000 C CNN
+F 1 "PEM2-S24-S24-S" H 2950 2276 50  0000 C CNN
+F 2 "CONV_PEM2-S24-S24-S" H 2950 1900 50  0001 L BNN
+F 3 "Warning" H 2950 1900 50  0001 L BNN
+F 4 "6.69 USD" H 2950 1900 50  0001 L BNN "Field4"
+F 5 "PEM2-S12-S12-S" H 2950 1900 50  0001 L BNN "Field5"
+F 6 "SIP-7 CUI" H 2950 1900 50  0001 L BNN "Field6"
+F 7 "PEM2 Series 2 W12 VDC 167 mA Single Output DC-DC Isolated Converter" H 2950 1900 50  0001 L BNN "Field7"
+F 8 "CUI" H 2950 1900 50  0001 L BNN "Field8"
+	1    2950 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1900 1850 2000
+Connection ~ 1850 2000
+Wire Wire Line
+	1850 2000 1850 2100
+Wire Wire Line
+	2350 2000 2200 2000
+$Comp
+L power:GND #PWR?
+U 1 1 5EF957E3
+P 3700 2000
+AR Path="/5EF957E3" Ref="#PWR?"  Part="1" 
+AR Path="/5EF82676/5EF957E3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3700 1750 50  0001 C CNN
+F 1 "GND" H 3705 1827 50  0000 C CNN
+F 2 "" H 3700 2000 50  0001 C CNN
+F 3 "" H 3700 2000 50  0001 C CNN
+	1    3700 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2000 3550 2000
+$Comp
+L power:+24V #PWR?
+U 1 1 5EF957EA
+P 3550 1600
+AR Path="/5EF957EA" Ref="#PWR?"  Part="1" 
+AR Path="/5EF82676/5EF957EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 1450 50  0001 C CNN
+F 1 "+24V" H 3565 1773 50  0000 C CNN
+F 2 "" H 3550 1600 50  0001 C CNN
+F 3 "" H 3550 1600 50  0001 C CNN
+	1    3550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1600 3550 1800
+$Comp
+L 2020-06-25_21-51-44:Si8610BC-B-IS U?
+U 1 1 5EF957F1
+P 2000 3950
+AR Path="/5EF957F1" Ref="U?"  Part="1" 
+AR Path="/5EF82676/5EF957F1" Ref="U?"  Part="1" 
+F 0 "U?" H 3400 4337 60  0000 C CNN
+F 1 "Si8610BC-B-IS" H 3400 4231 60  0000 C CNN
+F 2 "SOIC-8_SIL" H 3400 4190 60  0001 C CNN
+F 3 "" H 2000 3950 60  0000 C CNN
+	1    2000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ROE-2405S:ROE-2405S PS?
+U 1 1 5EF957FA
+P 2950 2700
+AR Path="/5EF957FA" Ref="PS?"  Part="1" 
+AR Path="/5EF82676/5EF957FA" Ref="PS?"  Part="1" 
+F 0 "PS?" H 2950 3167 50  0000 C CNN
+F 1 "ROE-2405S" H 2950 3076 50  0000 C CNN
+F 2 "CONV_ROE-2405S" H 2950 2700 50  0001 L BNN
+F 3 "10.00mm" H 2950 2700 50  0001 L BNN
+F 4 "RECOM" H 2950 2700 50  0001 L BNN "Field4"
+F 5 "5" H 2950 2700 50  0001 L BNN "Field5"
+F 6 "Manufacturer Recommendations" H 2950 2700 50  0001 L BNN "Field6"
+	1    2950 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1800 2250 1800
+$Comp
+L magnets_interlock_library:BNC_Input_female Error_Signal_input?
+U 1 1 5EF95801
+P 1650 3950
+AR Path="/5EF95801" Ref="Error_Signal_input?"  Part="1" 
+AR Path="/5EF82676/5EF95801" Ref="Error_Signal_input?"  Part="1" 
+F 0 "Error_Signal_input?" H 1892 4237 60  0000 C CNN
+F 1 "BNC_Input_female" H 1892 4131 60  0000 C CNN
+F 2 "conn2_1-1337543-0_TEC" H 2050 3890 60  0001 C CNN
+F 3 "" H 1650 3950 60  0000 C CNN
+	1    1650 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2500 2250 2500
+Wire Wire Line
+	2250 2500 2250 1800
+Connection ~ 2250 1800
+Wire Wire Line
+	2250 1800 2350 1800
+Wire Wire Line
+	2350 2900 2150 2900
+Wire Wire Line
+	2150 2900 2150 2000
+Connection ~ 2150 2000
+Wire Wire Line
+	2150 2000 1850 2000
+Wire Wire Line
+	3550 2900 3550 3250
+Wire Wire Line
+	3550 3250 1850 3250
+Wire Wire Line
+	1850 3250 1850 4250
+Wire Wire Line
+	3550 2500 3650 2500
+Wire Wire Line
+	3650 3300 2000 3300
+Wire Wire Line
+	2000 3300 2000 3950
+NoConn ~ 2000 4150
+NoConn ~ 4800 4050
+Wire Wire Line
+	1850 4250 1650 4250
+Connection ~ 1850 4250
+Connection ~ 1650 4250
+Wire Wire Line
+	2000 4050 1750 4050
+Wire Wire Line
+	1750 4050 1750 3950
+Wire Wire Line
+	1750 3950 1650 3950
+$Comp
+L 2020-06-25_22-55-44:UA78M05CDCYR U?
+U 1 1 5EF9581D
+P 4500 5050
+AR Path="/5EF9581D" Ref="U?"  Part="1" 
+AR Path="/5EF82676/5EF9581D" Ref="U?"  Part="1" 
+F 0 "U?" H 5600 5437 60  0000 C CNN
+F 1 "UA78M05CDCYR" H 5600 5331 60  0000 C CNN
+F 2 "DCY4_TEX" H 5600 5290 60  0001 C CNN
+F 3 "" H 4500 5050 60  0000 C CNN
+	1    4500 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EF95823
+P 2300 5400
+AR Path="/5EF95823" Ref="#PWR?"  Part="1" 
+AR Path="/5EF82676/5EF95823" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 5150 50  0001 C CNN
+F 1 "GND" H 2305 5227 50  0000 C CNN
+F 2 "" H 2300 5400 50  0001 C CNN
+F 3 "" H 2300 5400 50  0001 C CNN
+	1    2300 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5400 2300 5150
+$Comp
+L power:+24V #PWR?
+U 1 1 5EF9582A
+P 2300 4850
+AR Path="/5EF9582A" Ref="#PWR?"  Part="1" 
+AR Path="/5EF82676/5EF9582A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 4700 50  0001 C CNN
+F 1 "+24V" H 2315 5023 50  0000 C CNN
+F 2 "" H 2300 4850 50  0001 C CNN
+F 3 "" H 2300 4850 50  0001 C CNN
+	1    2300 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4850 2300 5050
+$Comp
+L power:GND #PWR?
+U 1 1 5EF95831
+P 4950 4250
+AR Path="/5EF95831" Ref="#PWR?"  Part="1" 
+AR Path="/5EF82676/5EF95831" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 4000 50  0001 C CNN
+F 1 "GND" H 4955 4077 50  0000 C CNN
+F 2 "" H 4950 4250 50  0001 C CNN
+F 3 "" H 4950 4250 50  0001 C CNN
+	1    4950 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4250 4800 4250
+Wire Wire Line
+	4500 5050 4650 5050
+Wire Wire Line
+	5100 5050 5100 3950
+$Comp
+L 2020-06-25_23-20-23:LM2904DR U?
+U 1 1 5EF9583A
+P 4800 2750
+AR Path="/5EF9583A" Ref="U?"  Part="1" 
+AR Path="/5EF82676/5EF9583A" Ref="U?"  Part="1" 
+F 0 "U?" H 6000 3137 60  0000 C CNN
+F 1 "LM2904DR" H 6000 3031 60  0000 C CNN
+F 2 "D8" H 6000 2990 60  0001 C CNN
+F 3 "" H 4800 2750 60  0000 C CNN
+	1    4800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EF95840
+P 4800 3250
+AR Path="/5EF95840" Ref="#PWR?"  Part="1" 
+AR Path="/5EF82676/5EF95840" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 3000 50  0001 C CNN
+F 1 "GND" H 4805 3077 50  0000 C CNN
+F 2 "" H 4800 3250 50  0001 C CNN
+F 3 "" H 4800 3250 50  0001 C CNN
+	1    4800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3250 4800 3050
+$Comp
+L power:+24V #PWR?
+U 1 1 5EF95847
+P 7200 2600
+AR Path="/5EF95847" Ref="#PWR?"  Part="1" 
+AR Path="/5EF82676/5EF95847" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7200 2450 50  0001 C CNN
+F 1 "+24V" H 7215 2773 50  0000 C CNN
+F 2 "" H 7200 2600 50  0001 C CNN
+F 3 "" H 7200 2600 50  0001 C CNN
+	1    7200 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2600 7200 2750
+Wire Wire Line
+	4800 2750 4800 2850
+Wire Wire Line
+	4800 4150 4950 4150
+Wire Wire Line
+	4950 4150 4950 3650
+Wire Wire Line
+	4950 3650 4700 3650
+Wire Wire Line
+	4700 3650 4700 2950
+Wire Wire Line
+	4700 2950 4800 2950
+Text GLabel 4450 2750 0    50   Input ~ 0
+ErrorSignal
+Wire Wire Line
+	4450 2750 4800 2750
+Connection ~ 4800 2750
+$Comp
+L Device:C C?
+U 1 1 5EF95857
+P 4650 5300
+AR Path="/5EF95857" Ref="C?"  Part="1" 
+AR Path="/5EF82676/5EF95857" Ref="C?"  Part="1" 
+F 0 "C?" H 4765 5346 50  0000 L CNN
+F 1 "0.1u" H 4765 5255 50  0000 L CNN
+F 2 "" H 4688 5150 50  0001 C CNN
+F 3 "~" H 4650 5300 50  0001 C CNN
+	1    4650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EF9585D
+P 4650 5650
+AR Path="/5EF9585D" Ref="#PWR?"  Part="1" 
+AR Path="/5EF82676/5EF9585D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 5400 50  0001 C CNN
+F 1 "GND" H 4655 5477 50  0000 C CNN
+F 2 "" H 4650 5650 50  0001 C CNN
+F 3 "" H 4650 5650 50  0001 C CNN
+	1    4650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EF95863
+P 1600 5300
+AR Path="/5EF95863" Ref="C?"  Part="1" 
+AR Path="/5EF82676/5EF95863" Ref="C?"  Part="1" 
+F 0 "C?" H 1715 5346 50  0000 L CNN
+F 1 "0.33u" H 1715 5255 50  0000 L CNN
+F 2 "" H 1638 5150 50  0001 C CNN
+F 3 "~" H 1600 5300 50  0001 C CNN
+	1    1600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EF95869
+P 1600 5750
+AR Path="/5EF95869" Ref="#PWR?"  Part="1" 
+AR Path="/5EF82676/5EF95869" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 5500 50  0001 C CNN
+F 1 "GND" H 1605 5577 50  0000 C CNN
+F 2 "" H 1600 5750 50  0001 C CNN
+F 3 "" H 1600 5750 50  0001 C CNN
+	1    1600 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5450 1600 5750
+Wire Wire Line
+	1600 5150 1600 5050
+Wire Wire Line
+	1600 5050 2300 5050
+Connection ~ 2300 5050
+Wire Wire Line
+	4650 5050 4650 5150
+Wire Wire Line
+	4650 5450 4650 5650
+Connection ~ 4650 5050
+Wire Wire Line
+	4650 5050 5100 5050
+$Comp
+L Device:C C?
+U 1 1 5EF95877
+P 1900 2650
+AR Path="/5EF95877" Ref="C?"  Part="1" 
+AR Path="/5EF82676/5EF95877" Ref="C?"  Part="1" 
+F 0 "C?" H 2015 2696 50  0000 L CNN
+F 1 "10u" H 2015 2605 50  0000 L CNN
+F 2 "" H 1938 2500 50  0001 C CNN
+F 3 "~" H 1900 2650 50  0001 C CNN
+	1    1900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2800 1900 2900
+Wire Wire Line
+	1900 2900 2150 2900
+Connection ~ 2150 2900
+Wire Wire Line
+	1900 2500 2250 2500
+Connection ~ 2250 2500
+$Comp
+L Device:C C?
+U 1 1 5EF95882
+P 1800 4650
+AR Path="/5EF95882" Ref="C?"  Part="1" 
+AR Path="/5EF82676/5EF95882" Ref="C?"  Part="1" 
+F 0 "C?" V 1548 4650 50  0000 C CNN
+F 1 "0.1u" V 1639 4650 50  0000 C CNN
+F 2 "" H 1838 4500 50  0001 C CNN
+F 3 "~" H 1800 4650 50  0001 C CNN
+	1    1800 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 4650 1950 4250
+Wire Wire Line
+	1850 4250 1950 4250
+Connection ~ 1950 4250
+Wire Wire Line
+	1950 4250 2000 4250
+Wire Wire Line
+	1650 4650 1650 4350
+Wire Wire Line
+	1650 4350 1900 4350
+Wire Wire Line
+	1900 4350 1900 3950
+Wire Wire Line
+	1900 3950 2000 3950
+Connection ~ 2000 3950
+$Comp
+L Device:C C?
+U 1 1 5EF95891
+P 5350 4100
+AR Path="/5EF95891" Ref="C?"  Part="1" 
+AR Path="/5EF82676/5EF95891" Ref="C?"  Part="1" 
+F 0 "C?" H 5235 4054 50  0000 R CNN
+F 1 "0.1u" H 5235 4145 50  0000 R CNN
+F 2 "" H 5388 3950 50  0001 C CNN
+F 3 "~" H 5350 4100 50  0001 C CNN
+	1    5350 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 3950 5100 3950
+Connection ~ 5100 3950
+Wire Wire Line
+	5100 3950 5350 3950
+Wire Wire Line
+	5350 4250 4950 4250
+Connection ~ 4950 4250
+$Comp
+L Device:C C?
+U 1 1 5EF9589C
+P 2300 1350
+AR Path="/5EF9589C" Ref="C?"  Part="1" 
+AR Path="/5EF82676/5EF9589C" Ref="C?"  Part="1" 
+F 0 "C?" V 2048 1350 50  0000 C CNN
+F 1 "1u" V 2139 1350 50  0000 C CNN
+F 2 "" H 2338 1200 50  0001 C CNN
+F 3 "~" H 2300 1350 50  0001 C CNN
+	1    2300 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 1350 2450 1700
+Wire Wire Line
+	2450 1700 2350 1700
+Wire Wire Line
+	2350 1700 2350 1800
+Connection ~ 2350 1800
+Wire Wire Line
+	2150 1350 2150 1900
+Wire Wire Line
+	2150 1900 2200 1900
+Wire Wire Line
+	2200 1900 2200 2000
+Connection ~ 2200 2000
+Wire Wire Line
+	2200 2000 2150 2000
+Wire Wire Line
+	3700 1800 3550 1800
+Connection ~ 3550 1800
+$Comp
+L Device:C C?
+U 1 1 5EF958AD
+P 4100 1850
+AR Path="/5EF958AD" Ref="C?"  Part="1" 
+AR Path="/5EF82676/5EF958AD" Ref="C?"  Part="1" 
+F 0 "C?" H 3985 1804 50  0000 R CNN
+F 1 "1u" H 3985 1895 50  0000 R CNN
+F 2 "" H 4138 1700 50  0001 C CNN
+F 3 "~" H 4100 1850 50  0001 C CNN
+	1    4100 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 1700 3700 1700
+Wire Wire Line
+	3700 1700 3700 1800
+Wire Wire Line
+	4100 2000 3700 2000
+Connection ~ 3700 2000
+$Comp
+L Device:C C?
+U 1 1 5EF958B7
+P 7550 2750
+AR Path="/5EF958B7" Ref="C?"  Part="1" 
+AR Path="/5EF82676/5EF958B7" Ref="C?"  Part="1" 
+F 0 "C?" V 7298 2750 50  0000 C CNN
+F 1 "0.1u" V 7389 2750 50  0000 C CNN
+F 2 "" H 7588 2600 50  0001 C CNN
+F 3 "~" H 7550 2750 50  0001 C CNN
+	1    7550 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 2750 7400 2750
+Connection ~ 7200 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5EF958BF
+P 7850 2750
+AR Path="/5EF958BF" Ref="#PWR?"  Part="1" 
+AR Path="/5EF82676/5EF958BF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7850 2500 50  0001 C CNN
+F 1 "GND" H 7855 2577 50  0000 C CNN
+F 2 "" H 7850 2750 50  0001 C CNN
+F 3 "" H 7850 2750 50  0001 C CNN
+	1    7850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2750 7700 2750
+Wire Wire Line
+	3650 2500 3650 3300
+$EndSCHEMATC
