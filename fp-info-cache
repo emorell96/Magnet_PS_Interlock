@@ -1,4 +1,25 @@
-18626848870905941
+18644374791041997
+3PinPowerTerm
+691508110303
+WR-TBL Terminal block - serie 5081 3,50mm - SMT - Horizontal entry with rising clamp - 03p
+
+0
+3
+3
+BNC_female
+1-1337543-0
+
+
+0
+4
+4
+BSS138W
+SOT323-R
+<b>SOT323 Reflow soldering</b><p>Philips SC01_Mounting_1996.pdf
+
+0
+3
+3
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2267,6 +2288,13 @@ SMD 8540
 0
 4
 4
+CL-SB-12B-01T
+CL-SB-12B
+
+
+0
+3
+3
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -56076,6 +56104,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Magnet_PS_Interlock
+TP11SH8CQE
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -58029,6 +58064,13 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+NXJ1S050
+VREG_NXJ1S0505MC-R7
+
+
+0
+5
+5
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -75424,6 +75466,20 @@ rotary encoder
 0
 5
 4
+SI8640DBIS
+Si8640BD-B-IS
+
+
+0
+16
+16
+SRD4005
+SR4D4005
+
+
+0
+10
+10
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -82039,3 +82095,24 @@ varistor SIOV
 0
 2
 2
+footprints
+Si8610BC-B-IS
+
+
+0
+8
+8
+inverter
+SN74LVC1G14DCKR
+
+
+0
+5
+5
+not_sure
+1-1337543-0
+
+
+0
+4
+4

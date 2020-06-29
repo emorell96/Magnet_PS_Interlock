@@ -9,4 +9,5 @@
   (lib (name SRD4005)(type KiCad)(uri ${KIPRJMOD}/SR4D4005/KiCAD/2020-06-26_17-54-09/footprints.pretty)(options "")(descr ""))
   (lib (name not_sure)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
   (lib (name BNC_female)(type KiCad)(uri ${KIPRJMOD}/BNC_conn/KiCAD/2020-06-29_19-17-33/footprints.pretty)(options "")(descr ""))
+  (lib (name Magnet_PS_Interlock)(type KiCad)(uri ${KIPRJMOD}/Magnet_PS_Interlock.pretty)(options "")(descr ""))
 )
