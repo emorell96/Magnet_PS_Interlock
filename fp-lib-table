@@ -10,4 +10,8 @@
   (lib (name not_sure)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
   (lib (name BNC_female)(type KiCad)(uri ${KIPRJMOD}/BNC_conn/KiCAD/2020-06-29_19-17-33/footprints.pretty)(options "")(descr ""))
   (lib (name Magnet_PS_Interlock)(type KiCad)(uri ${KIPRJMOD}/Magnet_PS_Interlock.pretty)(options "")(descr ""))
+  (lib (name "Components - 29.06.20 - 16.43")(type KiCad)(uri "${KIPRJMOD}/enrique3screwterm/Components - 29.06.20 - 16.43.pretty")(options "")(descr ""))
+  (lib (name "TVS diode")(type KiCad)(uri ${KIPRJMOD}/SM15T15CA/KiCAD/2020-06-30_21-37-50/footprints.pretty)(options "")(descr ""))
+  (lib (name ISO7741FDWR)(type KiCad)(uri ${KIPRJMOD}/3in1outisolator/KiCAD/2020-06-30_17-30-58/footprints.pretty)(options "")(descr ""))
+  (lib (name VLCF4024T-4R7N1R4-2)(type KiCad)(uri ${KIPRJMOD}/4.7uHinductor/KiCAD/2020-06-30_20-16-32/footprints.pretty)(options "")(descr ""))
 )

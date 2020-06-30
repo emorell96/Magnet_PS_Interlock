@@ -1,4 +1,4 @@
-18644375059612589
+18653936918476591
 3PinPowerTerm
 691508110303
 WR-TBL Terminal block - serie 5081 3,50mm - SMT - Horizontal entry with rising clamp - 03p
@@ -2293,8 +2293,8 @@ CL-SB-12B
 
 
 0
-3
-3
+5
+4
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -6166,6 +6166,20 @@ capacitor tantalum
 0
 2
 2
+Components - 29.06.20 - 16.43
+691321100003
+
+
+0
+0
+0
+Components - 29.06.20 - 16.43
+PCBComponent_1
+
+
+0
+0
+0
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -51617,6 +51631,13 @@ heatsink
 0
 2
 1
+ISO7741FDWR
+ISO7741FDWR
+
+
+0
+16
+16
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -56104,6 +56125,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Magnet_PS_Interlock
+691321100003
+
+
+0
+3
+3
 Magnet_PS_Interlock
 TP11SH8CQE
 
@@ -76887,6 +76915,13 @@ Logo WEEE
 0
 0
 0
+TVS diode
+SM15T15CA
+
+
+0
+2
+2
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -81325,6 +81360,13 @@ transformer flyback
 0
 10
 10
+VLCF4024T-4R7N1R4-2
+VLCF4024T-4R7N1R4-2
+
+
+0
+2
+2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

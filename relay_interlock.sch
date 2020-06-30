@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -13,85 +13,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Switch:SW_Push SW301
-U 1 1 5EF5F5C0
-P 3200 2650
-AR Path="/5EF588A2/5EF5F5C0" Ref="SW301"  Part="1" 
-AR Path="/5EFCF919/5EF5F5C0" Ref="SW201"  Part="1" 
-F 0 "SW301" H 3200 2935 50  0000 C CNN
-F 1 "SW_Push" H 3200 2844 50  0000 C CNN
-F 2 "Magnet_PS_Interlock:TP11SH8CQE" H 3200 2850 50  0001 C CNN
-F 3 "~" H 3200 2850 50  0001 C CNN
-	1    3200 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L BSS138W:BSS138W Q301
-U 1 1 5EFBAF07
-P 6300 2650
-AR Path="/5EF588A2/5EFBAF07" Ref="Q301"  Part="1" 
-AR Path="/5EFCF919/5EFBAF07" Ref="Q201"  Part="1" 
-F 0 "Q301" V 6443 2650 50  0000 C CNN
-F 1 "BSS138W" V 6534 2650 50  0000 C CNN
-F 2 "BSS138W:SOT323-R" H 6300 2650 50  0001 L BNN
-F 3 "" H 6300 2650 50  0001 C CNN
-	1    6300 2650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6100 2650 5800 2650
-$Comp
-L power:GND #PWR0107
-U 1 1 5EFC1523
-P 6700 2650
-AR Path="/5EF588A2/5EFC1523" Ref="#PWR0107"  Part="1" 
-AR Path="/5EFCF919/5EFC1523" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0107" H 6700 2400 50  0001 C CNN
-F 1 "GND" H 6705 2477 50  0000 C CNN
-F 2 "" H 6700 2650 50  0001 C CNN
-F 3 "" H 6700 2650 50  0001 C CNN
-	1    6700 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 2650 6500 2650
-Text HLabel 6200 2150 1    50   Input ~ 0
-ErrSig1
-Wire Wire Line
-	6200 2150 6200 2450
 Text HLabel 6250 3200 2    50   Input ~ 0
 Enable_Conn_1
 $Comp
 L 2020-06-26_17-54-09:SR4D4005 U?
 U 1 1 5EFBABE7
-P 4000 2650
+P 5800 2650
 AR Path="/5EFBABE7" Ref="U?"  Part="1" 
 AR Path="/5EF82676/5EFBABE7" Ref="U?"  Part="1" 
 AR Path="/5EF588A2/5EFBABE7" Ref="U302"  Part="1" 
 AR Path="/5EFCF919/5EFBABE7" Ref="U202"  Part="1" 
-F 0 "U302" H 4900 3138 60  0000 C CNN
-F 1 "SR4D4005" H 4900 3032 60  0000 C CNN
-F 2 "SRD4005:SR4D4005" H 4900 2990 60  0001 C CNN
-F 3 "" H 4000 2650 60  0000 C CNN
-	1    4000 2650
-	1    0    0    -1  
+F 0 "U302" H 6700 3138 60  0000 C CNN
+F 1 "SR4D4005" H 6700 3032 60  0000 C CNN
+F 2 "SRD4005:SR4D4005" H 6700 2990 60  0001 C CNN
+F 3 "" H 5800 2650 60  0000 C CNN
+	1    5800 2650
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6250 3200 5800 3200
 Text HLabel 6250 3350 2    50   Input ~ 0
 Enable_Conn_2
 Wire Wire Line
 	6250 3350 5800 3350
-Wire Wire Line
-	4000 3200 3700 3200
-Wire Wire Line
-	3700 2650 4000 2650
-Wire Wire Line
-	3700 3200 3700 2650
-Wire Wire Line
-	3400 2650 3700 2650
-Connection ~ 3700 2650
 $Comp
 L dk_LED-Indication-Discrete:LTST-C150KRKT D301
 U 1 1 5EFD24D7
@@ -169,12 +111,9 @@ F 12 "Active" H 2800 4650 60  0001 L CNN "Status"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3700 3200 3300 3200
-Wire Wire Line
 	3150 3200 3150 3450
 Wire Wire Line
 	3150 3450 3050 3450
-Connection ~ 3700 3200
 $Comp
 L Device:R R302
 U 1 1 5EFDCB0F
@@ -227,8 +166,6 @@ F 12 "Active" H 5700 5700 60  0001 L CNN "Status"
 	1    5500 4500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5800 2850
-NoConn ~ 5800 3000
 Wire Wire Line
 	3300 4400 3300 3200
 Connection ~ 3300 3200
@@ -392,18 +329,12 @@ Text HLabel 7350 2600 1    50   Input ~ 0
 +5Vin
 Wire Wire Line
 	7350 2600 7350 3200
-Text HLabel 2650 2650 0    50   Input ~ 0
-+5Vin
-Wire Wire Line
-	2650 2650 3000 2650
 Text HLabel 3100 2850 0    50   Input ~ 0
 +5Vin
 Wire Wire Line
 	3100 2850 4000 2850
-Text HLabel 3600 3350 0    50   Input ~ 0
+Text HLabel 3750 3350 0    50   Input ~ 0
 +5Vin
-Wire Wire Line
-	3600 3350 4000 3350
 Text HLabel 5500 3900 1    50   Input ~ 0
 +5Vin
 Wire Wire Line
@@ -451,4 +382,115 @@ F 3 "" H 6050 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 4050 5800 4050
+Wire Wire Line
+	6250 3200 5800 3200
+Wire Wire Line
+	7000 2650 6800 2650
+Text HLabel 6700 2150 1    50   Input ~ 0
+ErrSig1
+Wire Wire Line
+	6700 2150 6700 2450
+Wire Wire Line
+	6400 2650 5800 2650
+$Comp
+L power:GND #PWR0107
+U 1 1 5EFC1523
+P 7000 2650
+AR Path="/5EF588A2/5EFC1523" Ref="#PWR0107"  Part="1" 
+AR Path="/5EFCF919/5EFC1523" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0107" H 7000 2400 50  0001 C CNN
+F 1 "GND" H 7005 2477 50  0000 C CNN
+F 2 "" H 7000 2650 50  0001 C CNN
+F 3 "" H 7000 2650 50  0001 C CNN
+	1    7000 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BSS138W:BSS138W Q301
+U 1 1 5EFBAF07
+P 6600 2650
+AR Path="/5EF588A2/5EFBAF07" Ref="Q301"  Part="1" 
+AR Path="/5EFCF919/5EFBAF07" Ref="Q201"  Part="1" 
+F 0 "Q301" V 6250 2800 50  0000 C CNN
+F 1 "BSS138W" V 6400 2750 50  0000 C CNN
+F 2 "BSS138W:SOT323-R" H 6600 2650 50  0001 L BNN
+F 3 "" H 6600 2650 50  0001 C CNN
+	1    6600 2650
+	0    -1   1    0   
+$EndComp
+Text HLabel 3900 3700 2    50   Input ~ 0
+Relay-Off-Sig
+Text HLabel 2950 2650 0    50   Input ~ 0
++5Vin
+Wire Wire Line
+	2950 2650 3300 2650
+Wire Wire Line
+	4000 2650 3950 2650
+$Comp
+L Switch:SW_Push SW301
+U 1 1 5EF5F5C0
+P 3500 2650
+AR Path="/5EF588A2/5EF5F5C0" Ref="SW301"  Part="1" 
+AR Path="/5EFCF919/5EF5F5C0" Ref="SW201"  Part="1" 
+F 0 "SW301" H 3500 2935 50  0000 C CNN
+F 1 "SW_Push" H 3500 2844 50  0000 C CNN
+F 2 "Magnet_PS_Interlock:TP11SH8CQE" H 3500 2850 50  0001 C CNN
+F 3 "~" H 3500 2850 50  0001 C CNN
+	1    3500 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2650 3850 3200
+Wire Wire Line
+	3300 3200 3350 3200
+Connection ~ 3850 2650
+Wire Wire Line
+	3850 2650 3700 2650
+Connection ~ 3850 3200
+Wire Wire Line
+	3850 3200 4000 3200
+NoConn ~ 5800 2850
+NoConn ~ 5800 3000
+Wire Wire Line
+	3900 3700 3350 3700
+Wire Wire Line
+	3350 3700 3350 3200
+Connection ~ 3350 3200
+Wire Wire Line
+	3350 3200 3850 3200
+Wire Wire Line
+	3750 3350 4000 3350
+$Comp
+L Device:D_TVS_ALT D204
+U 1 1 5F1B3643
+P 3950 2250
+AR Path="/5EFCF919/5F1B3643" Ref="D204"  Part="1" 
+AR Path="/5EF588A2/5F1B3643" Ref="D304"  Part="1" 
+F 0 "D304" V 3996 2170 50  0000 R CNN
+F 1 "D_TVS_ALT" V 3905 2170 50  0000 R CNN
+F 2 "TVS diode:SM15T15CA" H 3950 2250 50  0001 C CNN
+F 3 "~" H 3950 2250 50  0001 C CNN
+	1    3950 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 2400 3950 2650
+Connection ~ 3950 2650
+Wire Wire Line
+	3950 2650 3850 2650
+$Comp
+L power:GND #PWR0125
+U 1 1 5F1B5366
+P 3950 1900
+AR Path="/5EF588A2/5F1B5366" Ref="#PWR0125"  Part="1" 
+AR Path="/5EFCF919/5F1B5366" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0125" H 3950 1650 50  0001 C CNN
+F 1 "GND" H 3955 1727 50  0000 C CNN
+F 2 "" H 3950 1900 50  0001 C CNN
+F 3 "" H 3950 1900 50  0001 C CNN
+	1    3950 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 1900 3950 2100
 $EndSCHEMATC
