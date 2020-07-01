@@ -13,26 +13,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L 691508110303:691508110303 PWR_In101
-U 1 1 5EF7A439
-P 800 1400
-F 0 "PWR_In101" H 900 1750 50  0000 C CNN
-F 1 "691508110303" H 850 1650 50  0000 C CNN
-F 2 "3PinPowerTerm:691508110303" H 800 1400 50  0001 L BNN
-F 3 "" H 800 1400 50  0001 C CNN
-	1    800  1400
-	-1   0    0    -1  
-$EndComp
-Text GLabel 1250 1300 2    50   Input ~ 0
+Text GLabel 1550 1300 2    50   Input ~ 0
 +5VIN
 Wire Wire Line
-	1250 1300 1200 1300
-Text GLabel 1250 1500 2    50   Input ~ 0
+	1550 1300 1500 1300
+Text GLabel 1550 1500 2    50   Input ~ 0
 PWR_GND_IN
 Wire Wire Line
-	1250 1500 1050 1500
-NoConn ~ 1050 1400
+	1550 1500 1350 1500
+NoConn ~ 1350 1400
 $Comp
 L magnets_interlock_library:BNC_Input_female ERR_In101
 U 1 1 5EF9EE1E
@@ -272,57 +261,57 @@ F 3 "" H 7050 1500 50  0001 C CNN
 	1    7050 1500
 	1    0    0    -1  
 $EndComp
-Connection ~ 1200 1300
+Connection ~ 1500 1300
 Wire Wire Line
-	1200 1300 1050 1300
-Text GLabel 1200 550  2    50   Input ~ 0
+	1500 1300 1350 1300
+Text GLabel 1500 550  2    50   Input ~ 0
 PWR_GND_IN
 $Comp
 L Device:C C110
 U 1 1 5F0D1FE9
-P 950 900
-F 0 "C110" H 1065 946 50  0000 L CNN
-F 1 "4.7u" H 1065 855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 988 750 50  0001 C CNN
-F 3 "~" H 950 900 50  0001 C CNN
-	1    950  900 
+P 1250 900
+F 0 "C110" H 1365 946 50  0000 L CNN
+F 1 "4.7u" H 1365 855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1288 750 50  0001 C CNN
+F 3 "~" H 1250 900 50  0001 C CNN
+	1    1250 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C111
 U 1 1 5F0D256B
-P 1600 950
-F 0 "C111" H 1715 996 50  0000 L CNN
-F 1 "4.7u" H 1715 905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1638 800 50  0001 C CNN
-F 3 "~" H 1600 950 50  0001 C CNN
-	1    1600 950 
+P 1900 950
+F 0 "C111" H 2015 996 50  0000 L CNN
+F 1 "4.7u" H 2015 905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1938 800 50  0001 C CNN
+F 3 "~" H 1900 950 50  0001 C CNN
+	1    1900 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 1100 1200 1100
+	1900 1100 1500 1100
 Wire Wire Line
-	1200 1050 1200 1100
-Connection ~ 1200 1100
+	1500 1050 1500 1100
+Connection ~ 1500 1100
 Wire Wire Line
-	1200 1100 1200 1300
+	1500 1100 1500 1300
 Wire Wire Line
-	1200 1100 950  1100
+	1500 1100 1250 1100
 Wire Wire Line
-	950  1100 950  1050
+	1250 1100 1250 1050
 Wire Wire Line
-	950  750  950  700 
+	1250 750  1250 700 
 Wire Wire Line
-	950  700  1200 700 
-Connection ~ 1200 700 
+	1250 700  1500 700 
+Connection ~ 1500 700 
 Wire Wire Line
-	1200 700  1200 750 
+	1500 700  1500 750 
 Wire Wire Line
-	1600 800  1600 700 
+	1900 800  1900 700 
 Wire Wire Line
-	1600 700  1200 700 
+	1900 700  1500 700 
 Wire Wire Line
-	1200 550  1200 700 
+	1500 550  1500 700 
 Text GLabel 3700 1800 0    50   Input ~ 0
 PWR_GND_IN
 Wire Wire Line
@@ -334,12 +323,12 @@ Wire Wire Line
 $Comp
 L Device:CP1 C109
 U 1 1 5EFCC247
-P 1200 900
-F 0 "C109" H 1085 854 50  0000 R CNN
-F 1 "47u" H 1085 945 50  0000 R CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1200 900 50  0001 C CNN
-F 3 "~" H 1200 900 50  0001 C CNN
-	1    1200 900 
+P 1500 900
+F 0 "C109" H 1385 854 50  0000 R CNN
+F 1 "47u" H 1385 945 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1500 900 50  0001 C CNN
+F 3 "~" H 1500 900 50  0001 C CNN
+	1    1500 900 
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -782,4 +771,15 @@ Wire Wire Line
 	3100 5800 3000 5800
 Text GLabel 3100 5650 1    50   Input ~ 0
 +5VOut2
+$Comp
+L enrique_3termscrew:691321100003 U104
+U 1 1 5EFC935A
+P 850 1300
+F 0 "U104" H 900 950 50  0000 R CNN
+F 1 "691321100003" H 1100 1450 50  0000 R CNN
+F 2 "Magnet_PS_Interlock:691321100003" H 850 1300 50  0001 C CNN
+F 3 "" H 850 1300 50  0001 C CNN
+	1    850  1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
